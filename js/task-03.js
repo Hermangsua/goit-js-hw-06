@@ -20,3 +20,10 @@ const galleryWithImgMarkUp = images
 
 console.log(galleryWithImgMarkUp);
 galleryUlElement.insertAdjacentHTML("afterbegin", galleryWithImgMarkUp);
+galleryUlElement.style.display = "flex";
+galleryUlElement.style.listStyle = "none";
+galleryUlElement.style.backGroundColor = "darkgray";
+galleryUlElement.style.gap = "100px";
+// galleryUlElement.style.border = "dashed 2px tomato";
+galleryUlElement.style.margin = "0";
+galleryUlElement.style.padding = "0";
