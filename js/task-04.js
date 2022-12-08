@@ -11,14 +11,10 @@ const counter = {
 const decrementBtn = document.querySelector(
   '#counter button[data-action="decrement"]'
 );
-console.log(decrementBtn);
 const incrementBtn = document.querySelector(
   '#counter button[data-action="increment"]'
 );
-console.log(incrementBtn);
 const valueEl = document.querySelector("#value");
-console.log(valueEl);
-
 decrementBtn.addEventListener("click", function () {
   counter.decrement();
   valueEl.textContent = counter.counterValue;

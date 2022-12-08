@@ -14,4 +14,4 @@ const listOfIngredients = ingredients.map((ingredient, index) => {
   return liElement;
 });
 ulIngredients.append(...listOfIngredients);
-console.log(listOfIngredients);
+// console.log(listOfIngredients);
